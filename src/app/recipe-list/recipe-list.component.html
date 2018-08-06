@@ -1,6 +1,5 @@
 <ul>
-  <li *ngFor="let recipe of recipes">{{ recipe.name }}
-    <p>{{recipe.ingredients}}</p>
-    <p>{{recipe.directions}}</p>
+  <li *ngFor="let recipe of recipes">
+    <app-recipe [recipe]="recipe"></app-recipe>
   </li>
 </ul>

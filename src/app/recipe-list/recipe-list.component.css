@@ -1,10 +1,22 @@
+* {
+  letter-spacing: 0.1rem;
+}
+
 li {
   font-size: 1.25rem;
   font-weight: bold;
 }
 
-li p {
+li .title {
   font-size: 1rem;
+}
+
+.contents {
+  font-size: 0.80rem;
+}
+
+.title {
+  font-weight: bold;
 }
 
 ul {
